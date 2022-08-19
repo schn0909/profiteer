@@ -11,4 +11,8 @@ $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 if($link === false){
     die("ERROR: Could not connect. " . mysqli_connect_error());
 }
+
+#contract with grab
+define('CLIENT_PERORDER', '60');
+define('RIDER_PERORDER', '50'); 
 ?>
